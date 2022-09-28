@@ -1,0 +1,34 @@
+.head-container {
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+}
+
+.head-container h1 {
+      font-size: 50px;
+}
+
+.head-container img {
+      width: 150px;
+}
+
+.moto {
+      margin-left: 55px;
+}
+
+.workout-zone {
+      display: grid;
+      grid-template-columns: 4fr 1fr;
+}
+
+.workouts-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 35px;
+      padding: 30px;
+}
+
+.user-experience-container {
+      background-color: lightblue;
+
+}

@@ -1,0 +1,44 @@
+[
+      {
+            "id": "63348f940f723e51be7192a5",
+            "picture": "https://images.unsplash.com/photo-1616803689943-5601631c7fec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "name": "Push ups",
+            "about": "This exercise builds the upper body and strengthens your core, including the chest and spinal cord.",
+            "time": 45
+      },
+      {
+            "id": "63348f94d7636db96515c124",
+            "picture": "https://images.unsplash.com/photo-1536922246289-88c42f957773?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1204&q=80",
+            "name": "Squats",
+            "about": "It makes your glutes strong and burns side and thigh fat.",
+            "time": 30
+      },
+      {
+            "id": "63348f9418bc154384af7922",
+            "picture": "https://img.freepik.com/free-photo/full-shot-man-doing-plank_23-2149036348.jpg?w=996&t=st=1664392166~exp=1664392766~hmac=d5d2aaeb6904f4a9a322d326bb63431b6683a6bf947e87ade19580c772b9e31e",
+            "name": "Plank",
+            "about": "It’s an abdominal and core exercise, also known as Hover exercise or Front Plank. Planks make your core strong and stable.",
+            "time": 45
+      },
+      {
+            "id": "63348f94df2d7e961207ccf1",
+            "picture": "https://img.freepik.com/free-photo/outdoor-shot-happy-energetic-senior-retired-man-enjoying-physical-training-park-doing-side-bends-exercise-holding-hands-together-with-broad-smile-warming-up-body-before-run_343059-4749.jpg?w=996&t=st=1664392405~exp=1664393005~hmac=a99f5b33c2a995aa508460047db85dcbb2f5693e9299ed65171f57a78c97fde0",
+            "name": "Side Bends",
+            "about": "It balances your entire body and strengthens and brings flexibility to your spine.",
+            "time": 60
+      },
+      {
+            "id": "63348f94907b49c84704e757",
+            "picture": "https://images.unsplash.com/photo-1514994667787-b48ca37155f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80",
+            "name": "Skipping",
+            "about": "It’s the easiest cardio exercise to get the heart rate up.",
+            "time": 60
+      },
+      {
+            "id": "63348f94fd2addd2522c101c",
+            "picture": "https://img.freepik.com/free-photo/couple-jogging-running-outdoors-park-near-water-young-bearded-man-woman-exercising-together-morning_146671-14843.jpg?w=996&t=st=1664396964~exp=1664397564~hmac=cb7225cc47a3080d950754661b2b589cee2e0bfe7411b7bd9e7dacf9d0290c56",
+            "name": "Sprinting",
+            "about": "It’s a high-intensity exercise involving short bursts of energy that targets your hamstrings.",
+            "time": 30
+      }
+]
