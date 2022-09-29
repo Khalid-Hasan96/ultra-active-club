@@ -6,7 +6,6 @@
 .user-img-name {
       display: flex;
       align-items: center;
-
 }
 
 .user-img-name img {
@@ -82,4 +81,23 @@
 .activity-btn:hover {
       background-color: #00aeff;
       transition: 1s;
+}
+
+@media screen and (max-width: 767px) {
+      .break-btn-container {
+            text-align: center;
+      }
+
+      .break-btn-container button {
+            margin: 0 10px;
+      }
+
+      .user-img-name {
+            display: flex;
+            justify-content: center;
+      }
+
+      .user p {
+            text-align: center;
+      }
 }

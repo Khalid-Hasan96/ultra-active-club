@@ -25,11 +25,11 @@ const UserExperience = ({ times }) => {
                   </div>
                   <div className='break-btn-container'>
                         <h1>Add a Break</h1>
-                        <button onClick={(event) => updateBreakTime(10)}>10s</button>
-                        <button onClick={(event) => updateBreakTime(20)}>20s</button>
-                        <button onClick={(event) => updateBreakTime(30)}>30s</button>
-                        <button onClick={(event) => updateBreakTime(40)}>40s</button>
-                        <button onClick={(event) => updateBreakTime(50)}>50s</button>
+                        <button onClick={() => updateBreakTime(10)}>10s</button>
+                        <button onClick={() => updateBreakTime(20)}>20s</button>
+                        <button onClick={() => updateBreakTime(30)}>30s</button>
+                        <button onClick={() => updateBreakTime(40)}>40s</button>
+                        <button onClick={() => updateBreakTime(50)}>50s</button>
 
                   </div>
                   <div className='exercise-details-container'>

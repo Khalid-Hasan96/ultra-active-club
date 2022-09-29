@@ -32,3 +32,18 @@
       background-color: lightblue;
 
 }
+
+@media screen and (max-width: 767px) {
+      .workout-zone {
+            display: flex;
+            flex-direction: column;
+      }
+
+      .workouts-container {
+            grid-template-columns: 1fr;
+            padding: 10px;
+
+      }
+
+
+}
