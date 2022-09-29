@@ -50,7 +50,7 @@
 }
 
 .exercise-details-container {
-      margin-top: 30px;
+      margin-top: 50px;
 }
 
 .times {
@@ -79,7 +79,8 @@
 }
 
 .activity-btn:hover {
-      background-color: #00aeff;
+      color: #00aeff;
+      background-color: #fff;
       transition: 1s;
 }
 

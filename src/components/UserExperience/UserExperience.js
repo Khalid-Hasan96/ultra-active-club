@@ -42,12 +42,10 @@ const UserExperience = ({ times }) => {
                         <h1>Exercise Details</h1>
                         <div className='time-container'>
                               <div className='times'><p>Exercise Time:</p> <p><strong>{exerciseTime}</strong>seconds</p></div>
-                              <div className='break-time times'><p>Break Time:</p> <p>{breakTime}seconds</p></div>
+                              <div className='break-time times'><p>Break Time:</p> <p><strong>{breakTime}</strong>seconds</p></div>
                         </div>
                   </div>
-                  <button className='activity-btn' onClick={successToast}>
-                        Activity Complete
-                  </button>
+                  <button className='activity-btn' onClick={successToast}>Activity Complete</button>
                   <ToastContainer position="top-center"
                         autoClose={5000}
                         hideProgressBar={false}
