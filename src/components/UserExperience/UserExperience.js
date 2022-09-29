@@ -1,14 +1,20 @@
 import React, { useState } from 'react';
 import img from '../../images/person-icon.png';
-import './UserExperience.css'
+import './UserExperience.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const UserExperience = ({ times }) => {
       const [breakTime, setBreakTime] = useState(0);
       const updateBreakTime = (event) => setBreakTime(event);
+      const successToast = () => {
+            toast.success("Wow. Thanks for exercise!!!")
+      }
       let exerciseTime = 0;
       for (const time of times) {
             exerciseTime = exerciseTime + time.time;
-      }
+      };
       return (
             <div className='user-container'>
                   <div className='user'>
@@ -39,9 +45,18 @@ const UserExperience = ({ times }) => {
                               <div className='break-time times'><p>Break Time:</p> <p>{breakTime}seconds</p></div>
                         </div>
                   </div>
-                  <button className='activity-btn'>
+                  <button className='activity-btn' onClick={successToast}>
                         Activity Complete
                   </button>
+                  <ToastContainer position="top-center"
+                        autoClose={5000}
+                        hideProgressBar={false}
+                        newestOnTop={false}
+                        closeOnClick
+                        rtl={false}
+                        pauseOnFocusLoss
+                        draggable
+                        pauseOnHover />
             </div>
       );
 };
