@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import img from '../../images/person-icon.png';
 import './UserExperience.css'
 
 const UserExperience = ({ times }) => {
-      console.log(times)
+      const [breakTime, setBreakTime] = useState(0);
+      const updateBreakTime = (event) => setBreakTime(event);
       let exerciseTime = 0;
       for (const time of times) {
             exerciseTime = exerciseTime + time.time;
@@ -24,18 +25,18 @@ const UserExperience = ({ times }) => {
                   </div>
                   <div className='break-btn-container'>
                         <h1>Add a Break</h1>
-                        <button><small>10s</small></button>
-                        <button><small>20s</small></button>
-                        <button><small>30s</small></button>
-                        <button><small>40s</small></button>
-                        <button><small>50s</small></button>
+                        <button onClick={(event) => updateBreakTime(10)}>10s</button>
+                        <button onClick={(event) => updateBreakTime(20)}>20s</button>
+                        <button onClick={(event) => updateBreakTime(30)}>30s</button>
+                        <button onClick={(event) => updateBreakTime(40)}>40s</button>
+                        <button onClick={(event) => updateBreakTime(50)}>50s</button>
 
                   </div>
                   <div className='exercise-details-container'>
                         <h1>Exercise Details</h1>
                         <div className='time-container'>
-                              <div className='times'><p>Exercise Time:</p> <p>{exerciseTime}seconds</p></div>
-                              <div className='break-time times'><p>Break Time:</p> <p>0seconds</p></div>
+                              <div className='times'><p>Exercise Time:</p> <p><strong>{exerciseTime}</strong>seconds</p></div>
+                              <div className='break-time times'><p>Break Time:</p> <p>{breakTime}seconds</p></div>
                         </div>
                   </div>
                   <button className='activity-btn'>
