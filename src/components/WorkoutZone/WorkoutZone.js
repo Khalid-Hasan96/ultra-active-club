@@ -6,11 +6,15 @@ import UserExperience from '../UserExperience/UserExperience';
 
 const WorkoutZone = () => {
       const [workouts, setWorkouts] = useState([]);
+      const [time, setTime] = useState([]);
       useEffect(() => {
             fetch('workout.json')
                   .then(res => res.json())
                   .then(data => setWorkouts(data))
-      }, [])
+      }, []);
+      const addToExerciseTime = (workout) => {
+            console.log(workout)
+      }
       return (
             <div className='workout-zone'>
                   <div>
@@ -26,6 +30,7 @@ const WorkoutZone = () => {
                                     workouts.map(workout => <Workout
                                           workout={workout}
                                           key={workout.id}
+                                          addToExerciseTime={addToExerciseTime}
                                     ></Workout>)
                               }
                         </div>
