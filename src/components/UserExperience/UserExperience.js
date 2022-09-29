@@ -7,7 +7,11 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const UserExperience = ({ times }) => {
       const [breakTime, setBreakTime] = useState(0);
-      const updateBreakTime = (event) => setBreakTime(event);
+      const updateBreakTime = (event) => {
+            localStorage.setItem("break-time", event);
+            setBreakTime(event);
+      };
+
       const successToast = () => {
             toast.success("Wow. Thanks for exercise!!!")
       }
