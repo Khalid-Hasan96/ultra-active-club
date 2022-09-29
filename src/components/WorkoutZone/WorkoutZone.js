@@ -13,7 +13,8 @@ const WorkoutZone = () => {
                   .then(data => setWorkouts(data))
       }, []);
       const addToExerciseTime = (workout) => {
-            console.log(workout)
+            const newTime = [...time, workout];
+            setTime(newTime)
       }
       return (
             <div className='workout-zone'>
@@ -36,7 +37,7 @@ const WorkoutZone = () => {
                         </div>
                   </div>
                   <div className='user-experience-container'>
-                        <UserExperience></UserExperience>
+                        <UserExperience times={time}></UserExperience>
                   </div>
             </div>
       );

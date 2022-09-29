@@ -2,7 +2,12 @@ import React from 'react';
 import img from '../../images/person-icon.png';
 import './UserExperience.css'
 
-const UserExperience = () => {
+const UserExperience = ({ times }) => {
+      console.log(times)
+      let exerciseTime = 0;
+      for (const time of times) {
+            exerciseTime = exerciseTime + time.time;
+      }
       return (
             <div className='user-container'>
                   <div className='user'>
@@ -29,7 +34,7 @@ const UserExperience = () => {
                   <div className='exercise-details-container'>
                         <h1>Exercise Details</h1>
                         <div className='time-container'>
-                              <div className='times'><p>Exercise Time:</p> <p>0seconds</p></div>
+                              <div className='times'><p>Exercise Time:</p> <p>{exerciseTime}seconds</p></div>
                               <div className='break-time times'><p>Break Time:</p> <p>0seconds</p></div>
                         </div>
                   </div>
