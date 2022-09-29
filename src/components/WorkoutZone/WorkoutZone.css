@@ -45,5 +45,15 @@
 
       }
 
+      .head-container {
+            margin-left: 0;
+            flex-direction: column;
+            text-align: center;
+      }
+
+      .moto {
+            margin-left: 0;
+            text-align: center;
+      }
 
 }
