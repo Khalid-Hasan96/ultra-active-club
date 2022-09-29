@@ -84,6 +84,33 @@
       transition: 1s;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1069px) {
+      .user-container {
+            padding-bottom: 20px;
+      }
+
+      .user-img-name {
+            display: flex;
+            justify-content: center;
+      }
+
+      .user p {
+            text-align: center;
+      }
+
+      .break-btn-container {
+            text-align: center;
+      }
+
+      .break-btn-container button {
+            margin: 0 30px;
+      }
+
+      .exercise-details-container h1 {
+            text-align: center;
+      }
+}
+
 @media screen and (max-width: 767px) {
       .break-btn-container {
             text-align: center;
@@ -99,6 +126,14 @@
       }
 
       .user p {
+            text-align: center;
+      }
+
+      .user-container {
+            padding-bottom: 20px;
+      }
+
+      .exercise-details-container h1 {
             text-align: center;
       }
 }
