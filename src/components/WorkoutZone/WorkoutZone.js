@@ -17,9 +17,9 @@ const WorkoutZone = () => {
                         <div>
                               <div className='head-container'>
                                     <img src={logo} alt="" />
-                                    <h1>Be Active</h1>
+                                    <h1>Free Hand Exercise Club</h1>
                               </div>
-                              <h3 className='moto'>Track Everyday's Exercise</h3>
+                              <h3 className='moto'>Track Everyday's Freehand Exercise</h3>
                         </div>
                         <div className='workouts-container'>
                               {

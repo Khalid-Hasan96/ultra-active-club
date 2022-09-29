@@ -8,7 +8,7 @@ const UserExperience = () => {
                   <div className='user'>
                         <div className='user-img-name'>
                               <img src={img} alt="" />
-                              <h2>Monkey D. Luffy</h2>
+                              <h2>Khan Chowdhury</h2>
                         </div>
                         <p>Dhaka, Bangladesh</p>
                   </div>
